@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base target="_blank" />
+    <title>Euterpe ♫</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a class="light" href="#">Home</a></li>
+        <li><a href="./download.html">Download</a></li>
+        <li><a href="./getBalance.html">Balance</a></li>
+      </ul>
+    </header>
+    <main>
+      <h1>Euterpe ♫</h1>
+      <div>
+        <p>My Address:<span class="address"></span></p>
+        <p>My Wallet Balance:<span class="balance"></span></p>
+        <p>
+          transaction Hash: <a style="color: blue" class="hash" href=""></a>
+        </p>
+        <br />
+      </div>
+      <div class="input">
+        <input class="name" type="text" placeholder="name" /><input
+          class="ipfsHash"
+          type="text"
+          placeholder="music"
+        />
+      </div>
+      <hr />
+      <div><button type="submit">上傳區塊鏈</button></div>
+    </main>
+
+    <footer>Euterpe ♫ 2022 ©</footer>
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
